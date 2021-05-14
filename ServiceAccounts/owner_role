@@ -1,0 +1,3 @@
+gcloud projects add-iam-policy-binding <project_ID> \
+    --member serviceAccount:<change_me>@cloudservices.gserviceaccount.com  \
+    --role roles/owner
